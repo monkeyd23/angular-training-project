@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   currentComponent = 'builds';
+
+  navigate(component: string) {
+      this.currentComponent = component;
+  }
 }
